@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+p {
+	color: #fff;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #68CDD6;
+}
+
+.back {
+	height: 54px;
+	padding: 10px;
+}
+
+/*.back img {
+	margin-left: 10px;
+}*/
+
+.logo {
+	width: 150px;
+	margin: 50px auto;
+}
+
+.wrap {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.text p {
+	margin-top: 100px;
+	font: 20px "微软雅黑";
+}
+
+.icon {
+	padding: 10px;
+	text-align: center;
+	position: absolute;
+	bottom: 30%;
+}
+
+.icon img {
+	width: 60px;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0;
+}

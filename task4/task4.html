@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			html{
+				height: 100%;
+			}
+			body{
+				height: 100%;
+			}
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.content{
+				height: 100%;
+			}
+			.header{
+				width: 100%;
+				height: 10%;
+				font:1.2rem "微软雅黑" ;
+				color:#fff;
+				background: #5AC0CE;
+				text-align: center;
+			}
+			.header>span{
+				padding: 0 10px;
+				line-height: 100%;
+			}
+			.left{
+				float: left;
+			}
+			.center{
+				font-size: 1.5rem;
+			}
+			.right{
+				float: right;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="header">
+				<span class="left"><a >注册</a></span>
+				<span class="center">登录</span>
+				<span class="right"><a >关闭</a></span>
+			</div>
+			<div class="main">
+				<form action="" method="post">
+					<ul>
+						<li>
+							<label for="phone"></label>
+							<input id="phone" type="text" placeholder="请输入手机号" />
+						</li>
+						<li>
+							<label for="password"></label>
+							<input id="password" type="password" placeholder="请输入密码"/>
+						</li>
+						<li>
+							<input id="login" type="button" value="登录" />
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
